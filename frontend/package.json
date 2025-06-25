@@ -1,0 +1,22 @@
+{
+  "name": "movie-graph-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-force-graph": "1.45.0",
+    "neo4j-driver": "5.14.0",
+    "@mui/material": "5.15.14",
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.14.16",
+    "recharts": "2.8.0"
+  }
+} 
