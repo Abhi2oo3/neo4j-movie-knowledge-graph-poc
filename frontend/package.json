@@ -1,5 +1,5 @@
 {
-  "name": "movie-graph-frontend",
+  "name": "movie-knowledge-dashboard",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,15 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-force-graph": "1.45.0",
-    "neo4j-driver": "5.14.0",
-    "@mui/material": "5.15.14",
-    "@emotion/react": "11.11.4",
-    "@emotion/styled": "11.11.0",
-    "@mui/icons-material": "5.14.16",
-    "recharts": "2.8.0"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/lab": "^5.0.0-alpha.136",
+    "@mui/material": "^5.15.14",
+    "@mui/x-data-grid": "^6.17.0",
+    "apexcharts": "^4.7.0",
+    "d3": "^7.9.0",
+    "neo4j-driver": "^5.14.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^18.2.0",
+    "react-force-graph": "^1.45.0",
+    "recharts": "^2.8.0"
   }
-} 
+}
